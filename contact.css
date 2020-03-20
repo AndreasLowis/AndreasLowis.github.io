@@ -1,0 +1,206 @@
+.top-bar {
+	width: 900px;
+	margin:auto;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+.top-bar #logo {
+	margin-top: 5px;
+}
+
+.top-bar .konten {
+	float: right;
+	
+}
+
+.top-bar #logo {
+	float left;
+}
+
+.top-bar .konten li{
+	display: inline-block;
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.top-bar .konten a{
+	text-decoration: none;
+	color: lightskyblue;
+
+}
+
+.container {
+	width: 750px;
+	background-color: white;
+	margin:auto;
+	margin-top: 70px;
+}
+
+.foto {
+	margin-top: 150px;
+	text-align: center;	
+	margin-bottom: 80px;
+}
+
+.foto #pp {
+	height: 160px;
+	width: 314px;
+	
+}
+
+.foto #pp {
+	width: 70%; 
+	height: 70%;
+}
+
+.konten a {
+	color: black;
+	transition: 0.1s;
+}
+
+.konten a:hover{
+	color: lightgrey;
+}
+
+.main p {
+	font-family: 'Baloo Thambi 2', cursive;
+	text-align: justify;
+}
+
+.contact {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+.opening {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+span {
+	color: rgb(74, 224, 214);
+}
+
+
+.firstlast {
+	width: 100%;
+}
+
+
+.firstlast .firstname {
+	float: left;
+}
+
+
+.firstnametext {
+	margin-top: 5px;
+}
+
+#name {
+	width: 355px;
+	height: 35px;
+	background-color: rgb(250, 250, 250);
+	margin-top: 5px;
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+}
+
+#lastname {
+	width: 50%;
+	height: 35px;
+	background-color: rgb(250, 250, 250);
+	float: right;
+	margin-top: 5px;
+	border: 1px solid lightgrey;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+
+.lastnametext {
+	text-indent: 20px;
+}
+
+
+li{
+	list-style: none;
+}
+
+
+.dll {
+	width: 100%;
+	
+}
+
+#email {
+	width: 100%;
+	height: 35px;
+	background-color: rgb(250, 250, 250);
+	margin-bottom: 30px;
+	margin-top: 5px;
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+}
+
+#subject {
+	width: 100%;
+	height: 35px;
+	background-color: rgb(250, 250, 250);
+	margin-bottom: 30px;
+	margin-top: 5px;
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+}
+
+#message {
+	width: 100%;
+	height: 200px;
+	background-color: rgb(250, 250, 250);
+	margin-bottom: 30px;
+	margin-top: 5px;
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+#submit {
+	padding: 13px 35px 13px 35px;
+	border: 2px solid black;
+	border-radius: 3px;
+	font-weight: bold;
+	background-color: white;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+#submit:hover{
+	color: white;
+	background-color: black;
+}
+
+.footer {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.footer .copy {
+	color: rgba(97,97,97, .9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
+
+

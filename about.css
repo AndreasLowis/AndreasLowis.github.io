@@ -1,0 +1,145 @@
+.top-bar {
+	width: 900px;
+	margin:auto;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+.top-bar #logo {
+	margin-top: 5px;
+}
+
+.top-bar .konten {
+	float: right;
+	
+}
+
+.top-bar #logo {
+	float left;
+}
+
+.top-bar .konten li{
+	display: inline-block;
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.top-bar .konten a{
+	text-decoration: none;
+	color: lightskyblue;
+
+}
+
+.container {
+	width: 750px;
+	background-color: white;
+	margin:auto;
+	margin-top: 70px;
+}
+
+.foto {
+	margin-top: 150px;
+	text-align: center;	
+	margin-bottom: 50px;
+}
+
+.foto #pp {
+	height: 160px;
+	width: 314px;
+	
+}
+
+.foto #pp {
+	width: 70%; 
+	height: 70%;
+}
+
+.konten a {
+	color: black;
+	transition: 0.1s;
+}
+
+.konten a:hover{
+	color: lightgrey;
+}
+
+.main p {
+	font-family: 'Baloo Thambi 2', cursive;
+	text-align: justify;
+}
+
+.contact {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+.opening {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+span {
+	color: rgb(74, 224, 214);
+}
+
+ul {
+	list-style: none;
+}
+
+.main{
+	width: 750px;
+	
+}
+
+.opening, .hobby{
+	text-align: center;
+}
+
+.hobby {
+	padding-bottom: 50px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.q1 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.question1 {
+	width: 30%;
+	
+	float: left;
+	margin-left: -30px;
+}
+
+.answer1 {
+	width: 70%;
+	
+	float: right;
+	text-align: justify;
+}
+
+.clear {
+	clear : both;
+}
+
+.footer {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.footer .copy {
+	color: rgba(97,97,97, .9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
+
+
