@@ -1,0 +1,50 @@
+.top-bar {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+.top-bar #logo {
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+.top-bar .konten {
+	float: right;
+	margin-right: 80px;
+}
+
+.top-bar #logo {
+	float left;
+}
+
+.top-bar .konten li{
+	display: inline-block;
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.top-bar .konten a{
+	text-decoration: none;
+	color: lightskyblue;
+
+}
+
+.konten a {
+	color: black;
+}
+
+hr {
+	color: lightgrey;
+}
+
+
+
