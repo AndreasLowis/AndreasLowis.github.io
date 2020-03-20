@@ -1,5 +1,6 @@
 .top-bar {
-	width: 100%;
+	width: 900px;
+	margin:auto;
 	height: 40px;
 	background-color: white;
 	position: fixed;
@@ -12,13 +13,12 @@
 }
 
 .top-bar #logo {
-	margin-left: 750px;
 	margin-top: 5px;
 }
 
 .top-bar .konten {
 	float: right;
-	margin-right: 800px;
+	
 }
 
 .top-bar #logo {
@@ -42,6 +42,7 @@
 	width: 750px;
 	background-color: white;
 	margin:auto;
+	margin-top: 70px;
 }
 
 .foto {
@@ -62,20 +63,25 @@
 
 .konten a {
 	color: black;
+	transition: 0.1s;
 }
 
-hr {
+.konten a:hover{
 	color: lightgrey;
 }
 
 .main p {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Baloo Thambi 2', cursive;
+	text-align: justify;
 }
 
 h4 {
 	font-family: 'Baloo Chettan 2', cursive;
 }
 
+span {
+	color: rgb(74, 224, 214);
+}
 
 .footer {
 	width: 100%;
