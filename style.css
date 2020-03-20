@@ -38,6 +38,28 @@
 
 }
 
+.container {
+	width: 750px;
+	background-color: white;
+	margin:auto;
+}
+
+.foto {
+	float: left;
+	margin-right: 15px;
+}
+
+.foto #pp {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%
+}
+
+#pp {
+	width: 200px; 
+	height: 267px;
+}
+
 .konten a {
 	color: black;
 }
@@ -46,5 +68,26 @@ hr {
 	color: lightgrey;
 }
 
+.main p {
+	font-family: 'Indie Flower', cursive;
+}
+
+h4 {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+.footer {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.footer .copy {
+	color: rgba(97,97,97, .9);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
 
 
