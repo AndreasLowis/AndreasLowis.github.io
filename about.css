@@ -113,12 +113,49 @@ ul {
 
 .question1 {
 	width: 30%;
-	
+	margin-top: -20px;
 	float: left;
 	margin-left: -30px;
 }
 
 .answer1 {
+	width: 70%;
+	
+	float: right;
+	text-align: justify;
+}
+
+.q2 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.question2 {
+	width: 30%;
+	margin-top: -20px;
+	float: left;
+	margin-left: -30px;
+}
+
+.answer2 {
+	width: 70%;
+	float: right;
+	text-align: justify;
+}
+
+.q3 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.question3 {
+	width: 30%;
+	margin-top: -20px;
+	float: left;
+	margin-left: -30px;
+}
+
+.answer3 {
 	width: 70%;
 	
 	float: right;
