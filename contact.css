@@ -203,3 +203,45 @@ li{
 }
 
 
+.sosmed {
+	margin-left: -50px;
+}
+
+.sosmed li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 1px;
+  width: 18px;
+  height: 17px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-instagram {
+  background: #FD1D1D;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
